@@ -56,7 +56,12 @@ class _ControlLightState extends State<ControlLight> {
             appBar: AppBar(),
             body: Column(
               children: [
-                Image(image: AssetImage("ElectricLightBg.png")),
+                Image(
+                    image: AssetImage(
+                        "images/USM.png"
+                    ),
+                  width: 650,
+                ),
                 SizedBox(
                   height: 100,
                 ),
